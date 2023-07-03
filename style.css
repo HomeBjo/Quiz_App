@@ -1,0 +1,24 @@
+body {
+    min-height: 100vh;
+}
+
+.center {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundcolor {
+    background-color: rgb(39,53,92);
+    padding: 25px !important;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.nav-link {
+    --bs-nav-link-color: hsla(240,7%,62%,1); 
+    --bs-nav-link-hover-color: #f8f9fa;
+    --bs-nav-link-disabled-color: var(--bs-secondary-color);
+}
